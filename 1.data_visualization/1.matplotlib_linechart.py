@@ -12,3 +12,6 @@ plt.title("Normal GDP")
 # add a label to the y-axis
 plt.ylabel("Billions of $")
 plt.show()
+
+plt.savefig('im/viz_gdp.png')
+plt.gca().clear()
